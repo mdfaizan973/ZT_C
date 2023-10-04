@@ -1,0 +1,11 @@
+.banner {
+  width: 98%;
+  margin: 15px auto;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.banner img {
+  width: 100%;
+}

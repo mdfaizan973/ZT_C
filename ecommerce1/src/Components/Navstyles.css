@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+nav h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.linkes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.linkes li:hover {
+  color: grey;
+}
