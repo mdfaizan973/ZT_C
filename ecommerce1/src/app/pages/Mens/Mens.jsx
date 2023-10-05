@@ -4,11 +4,14 @@ import "./Mens.css";
 import axios from "axios";
 export default function Mens() {
   const [data, setData] = useState([]);
+  const [load, setLoad] = useState(false);
   const getData = () => {
+    setLoad(true);
     axios
       .get("https://smily-kart.onrender.com/mens")
       .then((res) => {
         setData(res.data);
+        setLoad(false);
       })
       .catch((err) => {
         console.log(err);
@@ -21,6 +24,10 @@ export default function Mens() {
   const handleCart = () => {
     alert("Product has been successfully Added to Cart!");
   };
+
+  if (load) {
+    return <h1 style={{ fontSize: "30px" }}>Loading.......</h1>;
+  }
   return (
     <>
       <h1 className="meheading">Mens</h1>

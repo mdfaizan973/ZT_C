@@ -4,11 +4,15 @@ import axios from "axios";
 import "./Womens.css";
 export default function Womens() {
   const [data, setData] = useState([]);
+  const [load, setLoad] = useState(false);
+
   const getData = () => {
+    setLoad(true);
     axios
       .get("https://smily-kart.onrender.com/womens")
       .then((res) => {
         setData(res.data);
+        setLoad(false);
       })
       .catch((err) => {
         console.log(err);
@@ -21,6 +25,9 @@ export default function Womens() {
   const handleCart = () => {
     alert("Product has been successfully Added to Cart!");
   };
+  // if (load) {
+  //   return <h1 style={{ fontSize: "30px" }}>Loading.......</h1>;
+  // }
   return (
     <>
       <h1 className="woheading">Womens</h1>

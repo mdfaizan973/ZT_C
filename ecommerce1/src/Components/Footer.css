@@ -32,3 +32,11 @@
 .links li:hover {
   text-decoration: underline;
 }
+
+@media screen and (min-width: 100px) and (max-width: 750px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+}

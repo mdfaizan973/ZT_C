@@ -21,3 +21,13 @@ nav h1 {
 .linkes li:hover {
   color: grey;
 }
+
+@media screen and (max-width: 750px) and (min-width: 100px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .linkes {
+    width: 100%;
+  }
+}
