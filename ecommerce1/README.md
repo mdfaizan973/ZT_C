@@ -1,6 +1,6 @@
 # Zutok Software Ecommerce
 
-Link <a href="https://ecommercezutok.vercel.app/" > Click </a>
+ <a href="https://ecommercezutok.vercel.app/" > Click to see the website ➡️</a>
 
 Teck Stack `HTML`,  `CSS` , `Next.js`
 
