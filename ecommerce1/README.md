@@ -1,1 +1,5 @@
+# Zutok Software Ecommerce
+
+<a href="" > Link </a>
+
 I've developed an e-commerce website for clothing, powered by Next.js. This JavaScript framework has proven ideal for our online store, ensuring a seamless shopping experience. With Next.js, we achieve lightning-fast page loads, enhancing user experience and retention. Its built-in server-side rendering (SSR) bolsters SEO, making our products more discoverable. Moreover, Next.js simplifies code management, enabling efficient development and scaling for business growth. The framework prioritizes security, safeguarding both our platform and customer data. Our choice of Next.js, backed by a vibrant community and ecosystem, establishes a robust foundation for a successful and secure clothing e-commerce platform, meeting our customers' needs effectively.
