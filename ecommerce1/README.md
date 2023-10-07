@@ -12,3 +12,5 @@ I've developed an e-commerce website for clothing, powered by Next.js. This Java
 <div align="center" >
 <img width="500px"  src="https://github.com/mdfaizan973/ZT_C/assets/106812942/b9314bbb-512c-47a5-80f4-0ac2f99ba289" />
 </div>
+
+<hr/>
